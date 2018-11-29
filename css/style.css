@@ -1,0 +1,259 @@
+.header_outr {
+    background: url(../images/bck.png);
+    background-repeat: no-repeat;
+    background-size: 101%;
+    /* height: 665px; */
+    /* padding-bottom: 30px; */
+}
+
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    background: #f5f7fa;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 15px;
+}
+.info h5, .info h4 {
+    color: #fff;
+    margin: 0;
+}
+.info h5 {
+    font-size: 42px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.info {
+    padding: 58px 0 65px;
+}
+
+.info h4 {
+    font-size: 49px;
+    text-transform: uppercase;
+}
+
+.info p {
+    width: 533px;
+    color: #fff;
+    text-align: justify;
+    margin: 16px 0;
+}
+
+.logo {
+    padding: 53px 0;
+}
+.image_section {
+    width: 49%;
+    display: inline-block;
+    /* padding: 33px 0 30px; */
+}
+
+.content_Section {
+    width: 50%;
+    display: inline-block;
+    margin: 0;
+}
+
+.about_Section {
+    background: #f5f7fa;
+    padding: 80px 0;
+}
+
+.image_section img {
+    max-width: 68%;
+}
+
+.content_Section h4 {
+    font-size: 42px;
+    margin: 0;
+}
+
+.content_Section p {color: #615f5f;}
+.btn {
+    background: #efab00;
+    border-radius: 18px;
+    display: inline-block;
+    padding: 10px 17px;
+    color: #fff;
+    font-size: 19px;
+    margin: 12px 0;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #0c0c0c;
+}
+.video_section {
+    width: 100%;
+    background: #f5f7fa;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.video_section video {
+    width: 100%;
+    box-shadow: 6px -2px 9px 2px #7573739c;
+    max-height: 541px;
+    /* overflow: hidden; */
+    height: auto;
+}
+.video_section:before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: url(../images/left-plat.png);
+    background-repeat: no-repeat;
+    background-position: 0% 96%;
+    left: 0;
+    bottom: 0;
+}
+
+.video_section:after {
+    width: 100%;
+    height: 100%;
+    content: "";
+    background: url(../images/right.png);
+    background-repeat: no-repeat;
+    background-position: 100% 86%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.video-inner {
+    width: 81%;
+    margin: auto;
+    z-index: 999;
+    position: relative;
+    /* max-height: 700px; */
+    overflow: hidden;
+}
+.video-inner h4 {
+    text-align: center;
+    font-size: 37px;
+    margin: 4px 0 71px;
+    text-transform: uppercase;
+}
+.service {
+    background-repeat: no-repeat;
+    height: 74px;
+    text-align: center;
+    width: 189px;
+    padding: 59px 0 64px;
+    float: left;
+    margin: 0 103px;
+    background-position: 50%  78%;
+    margin-bottom: 42px;
+    /* box-shadow: 1px 1px 6px 1px #e8e8e8; */
+    transform: rotate(44deg);
+    border: 1px solid #000;
+}
+
+.services_Sec {
+    background: url(../images/services.png);
+    /* padding: 41px 0; */
+    width: 100%;
+    margin: 75px auto;
+    display: table;
+    background-position: center;
+    background-size: cover;
+}
+.serv-sec {
+    width: 100%;
+    display: table;
+    margin:  auto;
+}
+.last-service {
+    width: 71%;
+    display: table;
+    margin: auto;
+}
+
+.content {
+    transform: rotate(-46deg);
+    padding: 0 24px;
+}
+
+.service:hover {
+    background: #efab00;
+}
+.serv-sec h2 {
+    text-align: center;
+    margin: 0 0 132px;
+    font-size: 37px;
+    text-transform: uppercase;
+}
+.email-left {
+    width: 50%;
+    /* display: inline-block; */
+    float: left;
+}
+
+.email-right {
+    width: 49%;
+    /* display: inline-block; */
+    float: left;
+    padding: 55px 0;
+}
+
+.email-right input {
+    display: block;
+    margin: 16px 0;
+    height: 28px;
+    width: 55%;
+    border-radius: 9px;
+    padding: 5px 11px;
+    border: 1px solid #dadada;
+    background: transparent;
+}
+
+.email_Section {
+    width: 100%;
+    float: left;
+}
+
+.email-right .btn {
+    padding: 8px 32px;
+    text-transform: uppercase;
+    font-size: 17px;
+}
+
+.email-right ::placeholder {
+    color: #bfbfbf;
+}
+.email-right input:focus {
+    outline: none;
+}
+.footer {
+    background: #1b56e5;
+    width: 100%;
+    float: left;
+    padding: 0;
+}
+
+.footer ul {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.footer ul li {
+    display: inline-block;
+    text-align: center;
+    padding: 18px 5px;
+}
+
+.footer ul li img {
+    max-width: 53%;
+}
+.info h6 {
+    color: #fff;
+    margin: 19px 0;
+    font-size: 23px;
+    font-weight: 500;
+}
